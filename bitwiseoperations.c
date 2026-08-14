@@ -2,7 +2,7 @@
 void calculate_the_maximum(int n, int k);//function
 
 int main(){
-    int n,k;
+    int n,k; //n is the maximum number k is the largest number allowed for the max values
     
     scanf("%d %d", &n, &k);
     calculate_the_maximum(n,k);
@@ -14,6 +14,7 @@ void calculate_the_maximum( int n, int k){ //finds the maximum values of bitwise
     int b= a +1;//a and b show possible combinations of numbers
     int max_and, max_or,max_xor;
     max_and=max_or=max_xor=0;
+
     for (a = 1; a<n; a++){
         for (b =a +1; b<=n;b++){
             if ((a&b)< k){
@@ -44,7 +45,7 @@ void calculate_the_maximum( int n, int k){ //finds the maximum values of bitwise
             }
         }
     }
-    printf("%d\n", max_and);
-    printf("%d\n", max_or);
-    printf("%d\n",max_xor);
+    printf("%d\n", max_and);//outputs max value of and
+    printf("%d\n", max_or);//outputs max value of or
+    printf("%d\n",max_xor);//outputs max value of xor
 }
