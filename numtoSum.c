@@ -3,7 +3,6 @@
 int convertNumtoarray(int a);//converts number into array
 
 int num, i, num_array[5], sum;
-
 int main(){
     scanf("%d", &num);
     convertNumtoarray(num);
@@ -11,7 +10,6 @@ int main(){
 
     return 0;
 }
-
 int convertNumtoarray(int a){
     if(a >= 10000 && a<= 99999){
         sum = 0;
@@ -22,8 +20,8 @@ int convertNumtoarray(int a){
             sum += num_array[i];
     
         }
-
         // printf("%d\n", sum);
     }
-    return sum;
+    return sum;// return sum as final value to be used else where in the expression, void would work too
+                //i think
 }
