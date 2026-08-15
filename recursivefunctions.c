@@ -1,9 +1,7 @@
 //finding nth number in a series where the first 3 numbers are given
 #include <stdio.h>
 int a,b,c;
-
 int series(int n);
-
 int main(){
     int n;
     scanf("%d %d %d %d", &n, &a, &b, &c);
