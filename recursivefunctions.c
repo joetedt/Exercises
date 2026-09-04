@@ -13,7 +13,7 @@ int series(int n){
     if(n == 1){
         return a;
     }
-    else if( n== 2){
+    else if( n == 2){
         return b;
     }
     else if (n == 3) {
