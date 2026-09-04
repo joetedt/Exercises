@@ -23,5 +23,5 @@ int convertNumtoarray(int a){
         // printf("%d\n", sum);
     }
     return sum;// return sum as final value to be used else where in the expression, void would work too
-                //i think
+    //i think
 }
