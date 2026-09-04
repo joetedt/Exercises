@@ -2,8 +2,9 @@
 void calculate_the_maximum(int n, int k);//function
 
 int main(){
-    int n,k; //n is the maximum number k is the largest number allowed for the max values
-    
+    int n,k; //n is the maximum number 
+            //k is the largest number allowed for the max values
+    printf("Enter n and k respectively");
     scanf("%d %d", &n, &k);
     calculate_the_maximum(n,k);
 
